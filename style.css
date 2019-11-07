@@ -1,0 +1,117 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 180px !important;
+    font-family: sans-serif;
+    font-size: 14px;
+    width: 380px !important;
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+
+}
+.container {
+    background-color: #e6f0f5;
+    margin: 0;
+    padding: 0;
+    box-shadow:  0 8px 16px 0 rgba(0, 0, 0, 0.2),
+    0 12px 40px 0 rgba(0, 0, 0, 0.19);
+    border: 1px dotted #0e868f;
+}
+/*=====Modal-Header========= */
+.modal-header {
+    align-items: center;
+    border-bottom: 1px solid teal;
+}
+h1 {
+    font-size: 22px;
+    color: rgb(0, 53, 53);
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: 1px;
+}
+img {
+    width: 30px;
+}
+.logo {
+    padding: 16px;
+}
+
+.logo-icon {
+    vertical-align: text-bottom;
+    margin-right: 12px;
+}
+.version {
+    color: #000;
+    font-size: 12px;
+    font-weight: normal;
+}
+a:link,
+a:visited {
+    color: #000000;
+    outline: 0;
+    text-decoration: none;
+}
+/*=====Modal-content========= */
+.modal-content {
+    padding: 0 22px;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+/*=====Modal-icons========= */
+.modal-icons {
+    border-top: 0.5px solid teal;
+    height: 50px;
+    width: 100%;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 22px;
+}
+.flex {
+    transition: opacity 0.2s ease-in-out;
+    width: 120px;
+}
+.flex .fa {
+    font-size: 30px;
+}
+
+.flex .fa-youtube {
+    color: #ff0000;
+}
+.flex .fa-globe {
+    color: #0d2b30;
+}
+.flex .fa-facebook-official {
+    color: #4267b2;
+}
+.flex .fa-github {
+    color: #24292e;
+}
+.flex .fa-linkedin {
+    color: #283e4a;
+}
+.flex .fa-instagram {
+    color: #f09433;
+  color: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  color: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  color: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+}
+.flex .fa-twitter {
+    color: #1da1f2;
+}
+/*=============icon hover========= */
+.flex .fa-globe:hover {
+    color: teal;
+}
+.flex .fa-github:hover {
+    color: teal;
+}
+.flex .fa-linkedin:hover {
+    color: teal;
+}
+.flex .fa:hover {
+    color: rgb(0, 53, 53);
+}
